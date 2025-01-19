@@ -1,31 +1,17 @@
 import Hero from "@/components/Hero";
-import { StatsCard } from "@/components/StatsCard";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import {
   Activity,
   ArrowRight,
-  BookOpen,
-  Briefcase,
-  Building2,
   CheckCircle2,
-  CreditCard,
-  Facebook,
-  FileText,
   Gift,
   Heart,
-  HelpCircle,
-  Linkedin,
-  Lock,
-  MessageCircle,
   Shield,
-  Sparkles,
   Star,
   TrendingUp,
-  Twitter,
   Users,
-  Wallet,
-  Zap,
+  Zap
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
