@@ -100,6 +100,10 @@ const PricingSection: FC = () => {
                 <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0" />
                 <span>Profile optimization tips</span>
               </li>
+              <li className="flex items-center gap-3">
+                <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0" />
+                <span>Choose high quality accounts</span>
+              </li>
             </ul>
             <Button className="w-full bg-white text-[#0077B5] hover:bg-gray-100">
               Get Started →
@@ -144,6 +148,10 @@ const PricingSection: FC = () => {
                 <CheckCircle2 className="h-5 w-5 text-purple-600 flex-shrink-0" />
                 <span>Custom integration</span>
               </li>
+              <li className="flex items-center gap-3">
+                <CheckCircle2 className="h-5 w-5 text-purple-600 flex-shrink-0" />
+                <span>Choose high quality accounts (1000+ connections)</span>
+              </li>
             </ul>
             <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white">
               Upgrade to Pro →
@@ -181,7 +189,7 @@ const PricingSection: FC = () => {
         <div className="mt-16 flex justify-center items-center gap-8 text-gray-400">
           <div className="flex items-center gap-2">
             <Shield className="h-5 w-5" />
-            <span>Secure Payment</span>
+            <span>Secure Payments via Stripe</span>
           </div>
           <div className="flex items-center gap-2">
             <CheckCircle2 className="h-5 w-5" />

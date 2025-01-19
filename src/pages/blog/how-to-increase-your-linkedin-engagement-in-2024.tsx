@@ -319,7 +319,7 @@ const BlogPost: FC = () => {
                   <div className="flex items-center gap-4">
                     <CheckCircle2 className="h-6 w-6 text-[#0077B5]" />
                     <div>
-                      <h3 className="font-bold">LinkedBoost</h3>
+                      <h3 className="font-bold">LikedIn</h3>
                       <p className="text-gray-600">Get 100 free likes monthly to jumpstart your engagement</p>
                     </div>
                   </div>

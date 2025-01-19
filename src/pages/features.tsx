@@ -29,7 +29,7 @@ const FEATURES = [
     icon: Users,
     title: "Premium Quality Profiles",
     description:
-      "All likes come from high-quality accounts with complete profiles and real activity.",
+      "Choose from high-quality accounts with complete profiles and real activity.",
   },
   {
     icon: TrendingUp,

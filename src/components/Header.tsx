@@ -1,7 +1,18 @@
 import { type FC } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ChevronDown, Star, Sparkles } from "lucide-react";
+import { 
+  ChevronDown, 
+  Star, 
+  Sparkles, 
+  Shield,
+  BookOpen,
+  HelpCircle,
+  Activity,
+  Building2,
+  Briefcase,
+  MessageCircle
+} from "lucide-react";
 
 const Header: FC = () => {
   const { pathname } = useLocation();
@@ -14,7 +25,7 @@ const Header: FC = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <span className="text-xl font-bold bg-gradient-to-r from-[#0077B5] to-[#00A0DC] bg-clip-text text-transparent">LinkedBoost</span>
+            <span className="text-xl font-bold bg-gradient-to-r from-[#0077B5] to-[#00A0DC] bg-clip-text text-transparent">LikedIn</span>
           </Link>
 
           {/* Navigation */}
@@ -36,7 +47,7 @@ const Header: FC = () => {
                     to="/security" 
                     className={`flex items-center gap-2 px-4 py-2.5 rounded-md text-sm ${isActive('/security') ? 'bg-gradient-to-r from-[#0077B5]/10 to-[#00A0DC]/10 text-[#0077B5] font-medium' : 'text-gray-700 hover:bg-gray-50'}`}
                   >
-                    <Star className="h-4 w-4" />
+                    <Shield className="h-4 w-4" />
                     Security
                   </Link>
                   <Link 
@@ -67,21 +78,21 @@ const Header: FC = () => {
                     to="/blog" 
                     className={`flex items-center gap-2 px-4 py-2.5 rounded-md text-sm ${isActive('/blog') ? 'bg-gradient-to-r from-[#0077B5]/10 to-[#00A0DC]/10 text-[#0077B5] font-medium' : 'text-gray-700 hover:bg-gray-50'}`}
                   >
-                    <Sparkles className="h-4 w-4" />
+                    <BookOpen className="h-4 w-4" />
                     Blog
                   </Link>
                   <Link 
                     to="/help" 
                     className={`flex items-center gap-2 px-4 py-2.5 rounded-md text-sm ${isActive('/help') ? 'bg-gradient-to-r from-[#0077B5]/10 to-[#00A0DC]/10 text-[#0077B5] font-medium' : 'text-gray-700 hover:bg-gray-50'}`}
                   >
-                    <Star className="h-4 w-4" />
+                    <HelpCircle className="h-4 w-4" />
                     Help Center
                   </Link>
                   <Link 
                     to="/status" 
                     className={`flex items-center gap-2 px-4 py-2.5 rounded-md text-sm ${isActive('/status') ? 'bg-gradient-to-r from-[#0077B5]/10 to-[#00A0DC]/10 text-[#0077B5] font-medium' : 'text-gray-700 hover:bg-gray-50'}`}
                   >
-                    <Star className="h-4 w-4" />
+                    <Activity className="h-4 w-4" />
                     System Status
                   </Link>
                 </div>
@@ -98,21 +109,21 @@ const Header: FC = () => {
                     to="/about" 
                     className={`flex items-center gap-2 px-4 py-2.5 rounded-md text-sm ${isActive('/about') ? 'bg-gradient-to-r from-[#0077B5]/10 to-[#00A0DC]/10 text-[#0077B5] font-medium' : 'text-gray-700 hover:bg-gray-50'}`}
                   >
-                    <Sparkles className="h-4 w-4" />
+                    <Building2 className="h-4 w-4" />
                     About
                   </Link>
                   <Link 
                     to="/careers" 
                     className={`flex items-center gap-2 px-4 py-2.5 rounded-md text-sm ${isActive('/careers') ? 'bg-gradient-to-r from-[#0077B5]/10 to-[#00A0DC]/10 text-[#0077B5] font-medium' : 'text-gray-700 hover:bg-gray-50'}`}
                   >
-                    <Star className="h-4 w-4" />
+                    <Briefcase className="h-4 w-4" />
                     Careers
                   </Link>
                   <Link 
                     to="/contact" 
                     className={`flex items-center gap-2 px-4 py-2.5 rounded-md text-sm ${isActive('/contact') ? 'bg-gradient-to-r from-[#0077B5]/10 to-[#00A0DC]/10 text-[#0077B5] font-medium' : 'text-gray-700 hover:bg-gray-50'}`}
                   >
-                    <Star className="h-4 w-4" />
+                    <MessageCircle className="h-4 w-4" />
                     Contact
                   </Link>
                 </div>

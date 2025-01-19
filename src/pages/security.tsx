@@ -14,8 +14,8 @@ import {
 const SECURITY_FEATURES = [
   {
     icon: Lock,
-    title: "No Password Required",
-    description: "We never ask for your LinkedIn password or any sensitive information.",
+    title: "Secure Account Access",
+    description: "We use secure OAuth to automate likes while keeping your account protected.",
   },
   {
     icon: Shield,

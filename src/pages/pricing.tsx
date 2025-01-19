@@ -102,6 +102,10 @@ const Pricing: FC = () => {
                   <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0" />
                   <span>Priority support</span>
                 </li>
+                <li className="flex items-center gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0" />
+                  <span>Choose high quality accounts</span>
+                </li>
               </ul>
               <Button className="w-full bg-white text-[#0077B5] hover:bg-gray-100">
                 Get Started →
@@ -135,6 +139,10 @@ const Pricing: FC = () => {
                   <CheckCircle2 className="h-5 w-5 text-purple-600 flex-shrink-0" />
                   <span>Dedicated manager</span>
                 </li>
+                <li className="flex items-center gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-purple-600 flex-shrink-0" />
+                  <span>Choose high quality accounts (1000+ connections)</span>
+                </li>
               </ul>
               <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white">
                 Upgrade to Pro →
@@ -146,7 +154,7 @@ const Pricing: FC = () => {
           <div className="mt-16 flex justify-center items-center gap-8 text-gray-400">
             <div className="flex items-center gap-2">
               <Shield className="h-5 w-5" />
-              <span>Secure Payment</span>
+              <span>Secure Payments via Stripe</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-5 w-5" />
@@ -203,7 +211,7 @@ const Pricing: FC = () => {
               Ready to Grow Your LinkedIn Presence?
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Join 50,000+ professionals already using LinkedBoost to increase their reach.
+              Join 50,000+ professionals already using LikedIn to increase their reach.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-[#0077B5] hover:bg-[#0077B5]/90 text-white">

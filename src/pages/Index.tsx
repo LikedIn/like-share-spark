@@ -802,14 +802,14 @@ const Index = () => {
           <div className="mt-16 flex justify-center items-center gap-8 text-gray-400">
             <div className="flex items-center gap-2">
               <Shield className="h-5 w-5" />
-              <span>Secure Payment</span>
+              <span>Secure Payments via Stripe</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-5 w-5" />
               <span>Money Back Guarantee</span>
             </div>
             <div className="flex items-center gap-2">
-              <Users className="h-5 w-5" />
+              <Shield className="h-5 w-5" />
               <span>50K+ Happy Customers</span>
             </div>
           </div>
@@ -883,28 +883,28 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 py-16">
             {/* Company Info */}
             <div className="space-y-4">
-              <h3 className="text-white text-lg font-bold mb-4">LinkedBoost</h3>
+              <h3 className="text-white text-lg font-bold mb-4">LikedIn</h3>
               <p className="text-sm text-gray-400">
                 The most trusted LinkedIn growth service. Get 100 free likes
                 monthly and watch your professional network expand.
               </p>
               <div className="flex space-x-4">
                 <a
-                  href="https://twitter.com/linkedboost"
+                  href="https://twitter.com/LikedIn"
                   className="hover:text-white transition-colors"
                   aria-label="Twitter"
                 >
                   <Twitter className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://linkedin.com/company/linkedboost"
+                  href="https://linkedin.com/company/LikedIn"
                   className="hover:text-white transition-colors"
                   aria-label="LinkedIn"
                 >
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://facebook.com/linkedboost"
+                  href="https://facebook.com/LikedIn"
                   className="hover:text-white transition-colors"
                   aria-label="Facebook"
                 >
@@ -1047,7 +1047,7 @@ const Index = () => {
           <div className="border-t border-gray-800 py-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="text-sm text-gray-400">
-                © {new Date().getFullYear()} LinkedBoost. All rights reserved.
+                © {new Date().getFullYear()} LikedIn. All rights reserved.
               </div>
               <div className="flex items-center gap-6">
                 <div className="flex items-center gap-2 text-sm text-gray-400">

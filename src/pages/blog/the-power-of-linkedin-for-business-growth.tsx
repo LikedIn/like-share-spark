@@ -334,7 +334,7 @@ const BlogPost: FC = () => {
                     </div>
                     <div>
                       <h3 className="font-bold">Implement Engagement Strategy</h3>
-                      <p className="text-gray-600">Start with LinkedBoost's free plan to boost initial engagement</p>
+                      <p className="text-gray-600">Start with LikedIn's free plan to boost initial engagement</p>
                     </div>
                   </div>
                 </div>

@@ -337,7 +337,7 @@ const BlogPost: FC = () => {
                       2
                     </div>
                     <div>
-                      <h3 className="font-bold">Use LinkedBoost</h3>
+                      <h3 className="font-bold">Use LikedIn</h3>
                       <p className="text-gray-600">Get initial engagement with 100 free likes to trigger the algorithm</p>
                     </div>
                   </div>
