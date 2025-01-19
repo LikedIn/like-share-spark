@@ -2,7 +2,13 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route, useLocation, Navigate } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useLocation,
+  Navigate,
+} from "react-router-dom";
 import { useEffect } from "react";
 import Header from "@/components/Header";
 import Index from "./pages/Index";
@@ -21,6 +27,7 @@ import Features from "./pages/features";
 import HowToIncreaseEngagement from "./pages/blog/how-to-increase-your-linkedin-engagement-in-2024";
 import PowerOfLinkedIn from "./pages/blog/the-power-of-linkedin-for-business-growth";
 import LinkedInAlgorithm from "./pages/blog/linkedin-algorithm-what-you-need-to-know";
+import Footer from "./components/Footer";
 
 const queryClient = new QueryClient();
 
@@ -32,7 +39,7 @@ const ScrollToTop = () => {
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: "instant" // Use instant instead of smooth for a better UX on route changes
+      behavior: "instant", // Use instant instead of smooth for a better UX on route changes
     });
   }, [pathname]);
 
@@ -55,9 +62,15 @@ const App = () => (
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/how-to-increase-engagement" element={<HowToIncreaseEngagement />} />
+          <Route
+            path="/blog/how-to-increase-engagement"
+            element={<HowToIncreaseEngagement />}
+          />
           <Route path="/blog/power-of-linkedin" element={<PowerOfLinkedIn />} />
-          <Route path="/blog/linkedin-algorithm" element={<LinkedInAlgorithm />} />
+          <Route
+            path="/blog/linkedin-algorithm"
+            element={<LinkedInAlgorithm />}
+          />
           <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/help" element={<Help />} />
@@ -66,6 +79,7 @@ const App = () => (
           <Route path="/status" element={<Status />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
