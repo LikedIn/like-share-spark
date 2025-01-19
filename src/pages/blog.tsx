@@ -95,7 +95,7 @@ const Blog: FC = () => {
       </section>
 
       {/* Newsletter */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="bg-white rounded-xl shadow-lg p-8">
@@ -114,7 +114,7 @@ const Blog: FC = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
