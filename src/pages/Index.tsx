@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { PricingCard } from "@/components/PricingCard";
 import { StatsCard } from "@/components/StatsCard";
 import { ArrowRight, Heart, Zap, Shield, CheckCircle2 } from "lucide-react";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const Index = () => {
   return (
@@ -25,8 +26,16 @@ const Index = () => {
             </div>
             <div className="mt-8 flex items-center justify-center gap-4 text-sm">
               <div className="flex -space-x-2">
-                {[1, 2, 3, 4].map((i) => (
-                  <div key={i} className="w-8 h-8 rounded-full bg-white/90 border-2 border-accent" />
+                {[
+                  "photo-1649972904349-6e44c42644a7",
+                  "photo-1486312338219-ce68d2c6f44d",
+                  "photo-1581091226825-a6a2a5aee158",
+                  "photo-1519389950473-47ba0277781c"
+                ].map((photoId, i) => (
+                  <Avatar key={i} className="border-2 border-white w-8 h-8">
+                    <AvatarImage src={`https://images.unsplash.com/${photoId}`} alt={`User ${i + 1}`} />
+                    <AvatarFallback>U{i + 1}</AvatarFallback>
+                  </Avatar>
                 ))}
               </div>
               <p className="opacity-90">Joined by 10,000+ professionals this month</p>
@@ -145,6 +154,12 @@ const Index = () => {
             <h2 className="text-3xl font-bold mb-12">What Our Users Are Saying</h2>
             <div className="grid gap-8">
               <div className="bg-white p-8 rounded-lg shadow-sm">
+                <div className="flex items-center justify-center mb-6">
+                  <Avatar className="w-16 h-16 border-2 border-[#0077B5]/20">
+                    <AvatarImage src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952" alt="Sarah Chen" />
+                    <AvatarFallback>SC</AvatarFallback>
+                  </Avatar>
+                </div>
                 <div className="flex items-center justify-center mb-4">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <svg key={star} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
