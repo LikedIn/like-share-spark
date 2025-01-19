@@ -27,10 +27,10 @@ const Index = () => {
             <div className="mt-8 flex items-center justify-center gap-4 text-sm">
               <div className="flex -space-x-2">
                 {[
-                  "photo-1649972904349-6e44c42644a7",
-                  "photo-1486312338219-ce68d2c6f44d",
-                  "photo-1581091226825-a6a2a5aee158",
-                  "photo-1519389950473-47ba0277781c"
+                  "photo-1560250097-0b93528c311a", // Professional businessman
+                  "photo-1573496359142-b8d87734a5a2", // Professional businesswoman
+                  "photo-1580489944761-15a19d654956", // Tech professional woman
+                  "photo-1507003211169-0a1dd7228f2d"  // Tech professional man
                 ].map((photoId, i) => (
                   <Avatar key={i} className="border-2 border-white w-8 h-8">
                     <AvatarImage src={`https://images.unsplash.com/${photoId}`} alt={`User ${i + 1}`} />
@@ -156,7 +156,7 @@ const Index = () => {
               <div className="bg-white p-8 rounded-lg shadow-sm">
                 <div className="flex items-center justify-center mb-6">
                   <Avatar className="w-16 h-16 border-2 border-[#0077B5]/20">
-                    <AvatarImage src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952" alt="Sarah Chen" />
+                    <AvatarImage src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2" alt="Sarah Chen" />
                     <AvatarFallback>SC</AvatarFallback>
                   </Avatar>
                 </div>
