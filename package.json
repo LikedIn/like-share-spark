@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jamipuchi.github.io/like-share-spark",
   "scripts": {
     "dev": "vite",
     "build": "rm -rf docs/* && vite build && mkdir -p docs && cp -r dist/* docs/",
