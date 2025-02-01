@@ -76,6 +76,7 @@ const Hero: FC = () => {
               <Button
                 size="lg"
                 className="relative bg-gradient-to-r from-[#0077B5] to-[#00A0DC] text-white font-medium shadow-xl hover:shadow-2xl transition-all duration-200 hover:opacity-90 w-full sm:w-auto text-lg px-8 py-6 rounded-xl group"
+                onClick={() => window.location.href = "https://app.likedin.shop/login"}
               >
                 <span className="absolute -top-3 -right-2 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg animate-bounce">
                   Free Forever

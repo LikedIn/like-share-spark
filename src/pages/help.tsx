@@ -149,7 +149,8 @@ const Help: FC = () => {
                     from our network of high-quality profiles.
                   </p>
                   <div className="flex items-center gap-4 mt-6">
-                    <Button className="bg-[#0077B5] hover:bg-[#0077B5]/90 text-white">
+                    <Button className="bg-[#0077B5] hover:bg-[#0077B5]/90 text-white"
+                            onClick={() => window.location.href = "https://app.likedin.shop/login"}>
                       <Linkedin className="h-4 w-4 mr-2" />
                       Try Free with LinkedIn
                     </Button>

@@ -214,7 +214,8 @@ const Pricing: FC = () => {
               Join 50,000+ professionals already using LikedIn to increase their reach.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-[#0077B5] hover:bg-[#0077B5]/90 text-white">
+              <Button size="lg" className="bg-[#0077B5] hover:bg-[#0077B5]/90 text-white"
+                      onClick={() => window.location.href = "https://app.likedin.shop/login"}>
                 Start Free Trial →
               </Button>
               <Button size="lg" variant="outline">

@@ -61,7 +61,8 @@ const PricingSection: FC = () => {
                 <span>No credit card required</span>
               </li>
             </ul>
-            <Button className="w-full bg-green-500 hover:bg-green-600 text-white">
+            <Button className="w-full bg-green-500 hover:bg-green-600 text-white"
+                    onClick={() => window.location.href = "https://app.likedin.shop/login"}>
               Start Free Now →
             </Button>
           </div>

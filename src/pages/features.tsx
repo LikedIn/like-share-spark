@@ -109,6 +109,7 @@ const Features: FC = () => {
             <Button
               size="lg"
               className="bg-[#0077B5] hover:bg-[#0077B5]/90 text-white text-lg px-8 py-6 rounded-xl transform hover:scale-105 transition-all duration-200 shadow-lg"
+              onClick={() => window.location.href = "https://app.likedin.shop/login"}
             >
               Get Started Free →
               <span className="absolute -top-3 -right-3 bg-red-500 text-white text-xs px-2 py-1 rounded-full animate-pulse">

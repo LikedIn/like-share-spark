@@ -136,6 +136,7 @@ const Header: FC = () => {
             <Button 
               variant="outline"
               className="hidden md:flex font-medium hover:bg-gray-50/80"
+              onClick={() => window.location.href = "https://app.likedin.shop/login"}
             >
               Log in
             </Button>

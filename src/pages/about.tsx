@@ -238,6 +238,7 @@ const About: FC = () => {
               <Button
                 size="lg"
                 className="bg-white text-[#0077B5] hover:bg-gray-100 transform hover:scale-105 transition-all duration-200 shadow-lg"
+                onClick={() => window.location.href = "https://app.likedin.shop/login"}
               >
                 <Linkedin className="h-4 w-4 mr-2" />
                 Try Free with LinkedIn
