@@ -106,7 +106,8 @@ const PricingSection: FC = () => {
                 <span>Choose high quality accounts</span>
               </li>
             </ul>
-            <Button className="w-full bg-white text-[#0077B5] hover:bg-gray-100">
+            <Button className="w-full bg-white text-[#0077B5] hover:bg-gray-100"
+                    onClick={() => window.location.href = "https://app.likedin.shop/login"}>
               Get Started →
             </Button>
           </div>
@@ -154,7 +155,8 @@ const PricingSection: FC = () => {
                 <span>Choose high quality accounts (1000+ connections)</span>
               </li>
             </ul>
-            <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white">
+            <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white"
+                    onClick={() => window.location.href = "https://app.likedin.shop/login"}>
               Upgrade to Pro →
             </Button>
           </div>

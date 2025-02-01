@@ -142,6 +142,7 @@ const Header: FC = () => {
             </Button>
             <Button 
               className="bg-gradient-to-r from-[#0077B5] to-[#00A0DC] text-white font-medium shadow-md hover:shadow-lg transition-all duration-200 hover:opacity-90"
+              onClick={() => window.location.href = "https://app.likedin.shop/login"}
             >
               Start Free • 100 Likes
             </Button>
