@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "rm -rf docs/* && vite build && mkdir -p docs && cp -r dist/* docs/",
+    "build": "rm -rf docs/* && vite build --mode production && mkdir -p docs && cp -r dist/* docs/",
     "build:dev": "vite build --mode development",
+    "deploy:www": "rm -rf /www/* && cp -r docs/* /www/",
     "lint": "eslint .",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
