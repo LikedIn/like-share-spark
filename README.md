@@ -67,3 +67,58 @@ Simply open [Lovable](https://lovable.dev/projects/590763f5-0b67-4255-bf10-54add
 ## I want to use a custom domain - is that possible?
 
 We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+
+# LikedIn.shop
+
+Boost your LinkedIn engagement with automated likes and interactions. LikedIn.shop provides a safe and secure way to increase your LinkedIn post visibility and engagement through our automated like service.
+
+## Features
+
+- 🚀 Instant LinkedIn Post Likes
+- 🔒 Safe & Secure Service
+- ⚡ Real Engagement
+- 📈 Boost Post Visibility
+- 🎯 Targeted Interactions
+- 💼 Perfect for Business Growth
+
+## Getting Started
+
+To run this project locally:
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Tech Stack
+
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- Shadcn UI
+- React Router DOM
+
+## Security
+
+We take security seriously. Our service:
+- Uses secure authentication
+- Follows LinkedIn's guidelines
+- Protects user data
+- Provides transparent operations
+
+## Contact
+
+For support or inquiries:
+- Email: support@likedin.shop
+- Website: https://likedin.shop
+
+## License
+
+Copyright © 2024 LikedIn.shop. All rights reserved.
